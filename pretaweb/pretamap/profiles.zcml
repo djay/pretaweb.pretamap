@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="pretaweb.pretamap">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="pretaweb.pretamap"
+      directory="profiles/default"
+      description='Extension profile for the "pretaweb.pretamap" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="pretaweb.pretamap.various"
+      title="pretaweb.pretamap: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="pretaweb.pretamap.setuphandlers.setupVarious">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+
+</configure>

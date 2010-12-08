@@ -1,0 +1,39 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="pretaweb.pretamap">
+
+  <!-- 'pretaweb.pretamap' Zope 3 browser layer -->
+  <include package="plone.browserlayer" />
+
+<!--  <interface
+      interface=".interfaces.IPretaMapLayer"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="pretaweb.pretamap"
+      />
+  -->
+  <!-- Viewlets registration -->
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for images -->
+  <browser:resourceDirectory
+      name="pretaweb.pretamap.images"
+      directory="images"
+      layer=".interfaces.IPretaMapLayer"
+      />
+
+  <!-- Resource directory for stylesheets -->
+  <browser:resourceDirectory
+      name="pretaweb.pretamap.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IPretaMapLayer"
+      />
+
+  <!-- Resource directory for stylesheets -->
+  <browser:resource
+      name="pretaweb.pretamap.pretamap.js"
+      file="pretamap.js"
+      layer=".interfaces.IPretaMapLayer"
+      />
+
+</configure>
