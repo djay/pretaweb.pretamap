@@ -6,12 +6,6 @@
   <!-- 'pretaweb.pretamap' Zope 3 browser layer -->
   <include package="plone.browserlayer" />
 
-<!--  <interface
-      interface=".interfaces.IPretaMapLayer"
-      type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="pretaweb.pretamap"
-      />
-  -->
   <!-- Viewlets registration -->
   <!-- Zope 3 browser resources -->
 
@@ -29,7 +23,7 @@
       layer=".interfaces.IPretaMapLayer"
       />
 
-  <!-- Resource directory for stylesheets -->
+  <!-- Resource pretamap.js -->
   <browser:resource
       name="pretaweb.pretamap.pretamap.js"
       file="pretamap.js"
