@@ -21,11 +21,15 @@ jQuery(function($){
                                     fixed:true,
                                     effect:{type:'fade'}
                                },
-                               show: {effect:{type:'slide'},
+                               show: {effect:{type:'fade'},
                                     solo:true
                                     },
                                style: { 
-                                    name: 'green' // Inherit from preset style
+                                     border: {
+                                             width: 3,
+                                             radius: 8,
+                                             color: '#6699CC'
+                                    }
                                }
                                });
          })
