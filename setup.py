@@ -25,6 +25,7 @@ setup(name='pretaweb.pretamap',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.js.jquery',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

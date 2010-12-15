@@ -1,4 +1,0 @@
-<layers>
-    <layer name="pretaweb.pretamap"
-           interface="pretaweb.pretamap.interfaces.IPretaMapLayer" />
-</layers>

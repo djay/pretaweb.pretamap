@@ -1,11 +1,21 @@
 /* Stylesheet for the 'pretaweb.pretamap' Plone theme */
 
 /* pretamap */
+
+.pretamap_tooltip {
+    width: 300px;
+    background: white;
+    border: solid 1px black;
+}
+
+
+
 .pretamap {
   position: relative;
 	font-size: 90%;
 }
 
+/*
 .pretamap .pretamap-nodes li.mapped {
   position: absolute;
   top: 0;
@@ -33,5 +43,5 @@
 	color: #fff !important;
 	font-weight: bold;
 }
-
+*/
 

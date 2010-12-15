@@ -30,4 +30,14 @@
       layer=".interfaces.IPretaMapLayer"
       />
 
+  <browser:resource
+      name="jquery.qtip-1.0.0-rc3.min.js"
+      file="jquery.qtip-1.0.0-rc3.min.js"
+      layer=".interfaces.IPretaMapLayer"
+      />
+
+
+
+
+
 </configure>

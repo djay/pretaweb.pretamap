@@ -5,6 +5,11 @@
     id="++resource++pretaweb.pretamap.pretamap.js"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
+ <javascript 
+    id="++resource++jquery.qtip-1.0.0-rc3.min.js"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""/>
+
 
 
 </object>
