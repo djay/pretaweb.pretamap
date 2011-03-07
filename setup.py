@@ -26,6 +26,8 @@ setup(name='pretaweb.pretamap',
       install_requires=[
           'setuptools',
           'collective.js.jquery',
+          'Products.TinyMCE',
+          'zopyx.tinymceplugins.imgmap',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

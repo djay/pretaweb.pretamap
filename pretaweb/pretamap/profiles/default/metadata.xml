@@ -3,5 +3,7 @@
   <version>1000</version>
   <dependencies>
         <dependency>profile-collective.js.jquery:default</dependency>
+        <dependency>profile-Products.TinyMCE:default</dependency>
+        <dependency>profile-zopyx.tinymceplugins.imgmap:default</dependency>
   </dependencies>
 </metadata>
